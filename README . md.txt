@@ -1,0 +1,24 @@
+# 🕒 Habit Controller (Controlador de Hábitos)
+
+Esta es una aplicación interactiva que permite a los usuarios crear y rastrear el tiempo dedicado a hábitos o tareas específicas utilizando contadores individuales.
+
+La aplicación está construida con **React**, **HTML** y **CSS** y gestiona los datos localmente a través de `localStorage`.
+
+## 🛠️ Características Principales
+* **Contadores de Tiempo:** Inicia, pausa y reinicia contadores de tiempo para cada hábito.
+* **Temas de Color:** Personaliza el fondo de la aplicación.
+* **Navegación Táctil:** Soporte para gestos de deslizamiento (swipe) para moverse entre las páginas (Inicio, Colores, Contadores).
+
+## 📦 Estructura de Despliegue
+El proyecto ha sido **unificado** en un único archivo `index.html` para un despliegue sencillo como Aplicación de Página Única (SPA).
+
+| Archivo | Contenido |
+| :--- | :--- |
+| `index.html` | Contiene el HTML, el CSS del proyecto, y el código React/JSX completo. |
+| `netlify.toml` | Archivo de configuración para Netlify. |
+| `README.md` | Este documento. |
+
+## 🚀 Despliegue Rápido
+1.  Asegúrate de que los tres archivos estén en la **raíz** de tu carpeta.
+2.  Sube esta carpeta a GitHub.
+3.  Conecta el repositorio con Netlify.
